@@ -1,0 +1,19 @@
+.navigation {
+    background-color: #f0f0f0;
+    padding: 10px;
+  }
+  
+  .navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .navigation li {
+    margin: 0 15px;
+  }
+  
+  .navigation a {
+    text-decoration: none;
