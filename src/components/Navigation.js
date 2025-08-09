@@ -1,14 +1,16 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import './Navigation.css';
 
 const Navigation = () => {
   return (
     <nav className="navigation">
       <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="/linear-algebra">Linear Algebra</a></li>
-        <li><a href="/calculus">Calculus</a></li>
-        <li><a href="/probability">Probability</a></li>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/projects">Projects</Link></li>
+        <li><Link to="/linear-algebra">Linear Algebra</Link></li>
+        <li><Link to="/calculus">Calculus</Link></li>
+        <li><Link to="/probability">Probability</Link></li>
       </ul>
     </nav>
   );
